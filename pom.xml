@@ -35,6 +35,13 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!-- Dev/local DB fallback (no Docker required) -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
         <!-- Auth/JWT (minimal) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
