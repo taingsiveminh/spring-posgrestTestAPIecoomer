@@ -1,0 +1,14 @@
+.git
+.idea
+.vscode
+.DS_Store
+
+target
+**/target
+
+node_modules
+**/node_modules
+
+adminDashboradVite
+ufrontendecommer
+postman
