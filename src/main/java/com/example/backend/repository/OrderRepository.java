@@ -9,4 +9,6 @@ import com.example.backend.entity.Order;
 public interface OrderRepository extends JpaRepository<Order, Long> {
 
 	List<Order> findByCustomerEmailOrderByIdDesc(String customerEmail);
+
+	List<Order> findAllByOrderByIdDesc();
 }

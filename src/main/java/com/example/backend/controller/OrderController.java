@@ -53,6 +53,6 @@ public class OrderController {
     // ADMIN VIEW ORDERS
     @GetMapping("/admin/orders")
     public List<Order> getAll() {
-        return repo.findAll();
+	    return repo.findAllByOrderByIdDesc();
     }
 }
